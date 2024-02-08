@@ -60,16 +60,16 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Anas Ali.</h2>;
+  const three = <h3 className="big-heading">I build Data Science products.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        I am a Data Scientist with expertise in developing applications using Python. I have worked
+        in Machine Learning, GenerativeAI, Natural Language Processing and Django Development. I
+        currently work as a tech-lead at{' '}
+        <a href="https://www.i2cinc.com/" target="_blank" rel="noreferrer">
+          i2c Inc.
         </a>
         .
       </p>
