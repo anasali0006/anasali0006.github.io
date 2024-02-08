@@ -51,6 +51,13 @@ jobs:
             echo "Unable to determine package manager"
             exit 1
           fi
+      
+      
+      - name: Set NODE_OPTIONS for Unix environments
+        if: startsWith(runner.os, 'Linux') || startsWith(runner.os, 'macOS')
+        run: echo "export NODE_OPTIONS=--openssl-legacy-provider" >> $GITHUB_ENV
+    
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
