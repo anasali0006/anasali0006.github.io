@@ -11,7 +11,7 @@ const StyledLoader = styled.div`
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 0;e
   width: 100%;
   height: 100%;
   background-color: var(--dark-navy);
@@ -29,7 +29,7 @@ const StyledLoader = styled.div`
       margin: 0 auto;
       fill: none;
       user-select: none;
-      #B {
+      #A {
         opacity: 0;
       }
     }
