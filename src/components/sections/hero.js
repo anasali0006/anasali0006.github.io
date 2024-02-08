@@ -65,9 +65,10 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I am a Data Scientist with expertise in developing applications using Python. I have worked
-        in Machine Learning, GenerativeAI, Natural Language Processing and Django Development. I
-        currently work as a tech-lead at{' '}
+        I am a Data Scientist with expertise in developing applications using Python. I have
+        experience working in Data Science, GenerativeAI, Natural Language Processing and Machine
+        Learning Engineering. I have a proven track record of successfully developing ML
+        products/projects, and am currently working as a AI Chatbot Development tech-lead at{' '}
         <a href="https://www.i2cinc.com/" target="_blank" rel="noreferrer">
           i2c Inc.
         </a>
